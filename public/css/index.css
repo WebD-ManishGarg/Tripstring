@@ -1,0 +1,58 @@
+.linear{
+
+  background: #ed213a; /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #ed213a, #93291e); /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #ed213a, #93291e);
+ padding: 12rem;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+.last{
+  background: url("/images/last.jpg");
+  margin-top: -4rem;
+}
+.owl-item img{
+  width:25rem;
+  height:40rem;
+  image-resolution: snap;
+  outline-color: invert;
+  object-fit: cover;
+
+}
+hr { background-color: teal; height: 1px; border: 0; }
+#looking{
+  font-size: 2rem;
+  height: 30rem;
+}
+#looking .card-panel{
+  height: 12rem;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color:purple;
+    font-weight: 700;
+}
+#second
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+#font{
+font-family: 'Metamorphous', cursive;
+font-size: 4rem;
+/* margin-top: -2rem; */
+}
+#second img{
+  height:30%;
+  width:100%;
+}
