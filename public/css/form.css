@@ -1,9 +1,12 @@
 #form {
   border: 2px solid red;
-  background: teal;
+  background: white;
   width: 50%;
 
 
+}
+body{
+  background: teal;
 }
 #sty{
 }

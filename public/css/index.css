@@ -10,6 +10,7 @@ body{
 }
 .last{
   background: url("/images/last.jpg");
+  background-size: cover;
   margin-top: -4rem;
 }
 .owl-item img{

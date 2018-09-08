@@ -24,7 +24,22 @@ app.get("/tripstring",function(req,res){
 //offer pages
 app.get("/shimla",function(req,res){
   res.render("package-tour/shimla1");
-})
+});
+app.get("/manali",function(req,res){
+  res.render("package-tour/manali");
+});
+app.get("/dharam",function(req,res){
+  res.render("package-tour/dharam");
+});
+app.get("/kashmir",function(req,res){
+  res.render("package-tour/kashmir");
+});
+app.get("/darjelling",function(req,res){
+  res.render("package-tour/darjelling");
+});
+app.get("/rajasthan",function(req,res){
+  res.render("package-tour/rajasthan");
+});
 //form show pages
 app.get("/form",function(req,res){
    res.render("form");
@@ -32,7 +47,7 @@ app.get("/form",function(req,res){
    res.render("form1");
 });
 app.get("/form_mice",function(req,res){
-   res.render("mice");
+   res.render("form-mice");
 });
 
 app.get("/about",function(req,res){
