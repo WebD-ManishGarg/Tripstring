@@ -18,7 +18,18 @@
 </div>
 </div>
 
+
 <div class="container">
+<div class="row">
+    <div class="col l12">
+      <ul class="tabs" id="tabs-swipe-demo">
+        <li class="tab col l6"><a href="#test-swipe-1">SHIMAL-KUFRI TOUR</a></li>
+        <li class="tab col l6"><a class="active" href="#test-swipe-2">SHIMLA-CHAIL TOUR</a></li>
+      </ul>
+    </div>
+</div>
+</div>
+<div class="container" id="test-swipe-1" class="col s12">
 							<div class="row">
                  <div class="col l4">
                 <img  class="responsive-img" src="images/top_1.jpg" alt="">
@@ -49,14 +60,12 @@
 							</div>
 						</div>
           </div>
-          <br>
-<hr>
-<br><br><br>
 
 
 
 
-          <div class="container">
+
+          <div class="container" id="test-swipe-2" class="col s12">
           							<div class="row">
                            <div class="col l4">
                           <img  class="responsive-img" src="images/top_1.jpg" alt="">
@@ -112,6 +121,12 @@
 $(document).ready(function(){
  $('.fixed-action-btn').floatingActionButton();
 });
+
+
+$(document).ready(function(){
+   $('.tabs').tabs();
+ });
+
 
 </script>
 
