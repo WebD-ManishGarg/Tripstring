@@ -40,6 +40,24 @@ app.get("/darjelling",function(req,res){
 app.get("/rajasthan",function(req,res){
   res.render("package-tour/rajasthan");
 });
+app.get("/wedding",function(req,res){
+  res.render("package-tour/wedding");
+});
+app.get("/kerala",function(req,res){
+  res.render("package-tour/kerala");
+});
+app.get("/andaman",function(req,res){
+  res.render("package-tour/andaman");
+});
+app.get("/goa",function(req,res){
+  res.render("package-tour/goa");
+});
+app.get("/agra",function(req,res){
+  res.render("package-tour/agra");
+});
+app.get("/ladakh",function(req,res){
+  res.render("package-tour/ladakh");
+});
 //form show pages
 app.get("/form",function(req,res){
    res.render("form");
@@ -53,6 +71,7 @@ app.get("/form_mice",function(req,res){
 app.get("/about",function(req,res){
    res.render("about");
 });
+
 
 
 
