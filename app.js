@@ -67,6 +67,9 @@ app.get("/form",function(req,res){
 app.get("/form_mice",function(req,res){
    res.render("form-mice");
 });
+app.get("/form_query",function(req,res){
+   res.render("queryform");
+});
 
 app.get("/about",function(req,res){
    res.render("about");
