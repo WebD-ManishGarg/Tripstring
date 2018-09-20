@@ -22,9 +22,9 @@ Agra is a major tourist destination because of its many Mughal-era buildings, mo
 <div class="row">
     <div class="col l12">
       <ul class="tabs" id="tabs-swipe-demo">
-        <li class="tab col l4"><a  class="active" href="#test-swipe-1">Same Day Agra Tour By Car</a></li>
-        <li class="tab col l4"><a  href="#test-swipe-2">Same Day Agra Tour By Train</a></li>
-          <li class="tab col l4"><a  href="#test-swipe-3">Same Day Jaipur Tour </a></li>
+        <li class="tab col l4"><a  class="active lime teal-text" href="#test-swipe-1">Same Day Agra Tour By Car</a></li>
+        <li class="tab col l4"><a class=" lime lighten-3 teal-text" href="#test-swipe-2">Same Day Agra Tour By Train</a></li>
+          <li class="tab col l4"><a  class="lime darken-2 teal-text"href="#test-swipe-3">Same Day Jaipur Tour </a></li>
       </ul>
     </div>
   </div>
@@ -229,8 +229,8 @@ Jahangir fell in love with his widowed daughter who processes unspeakable beauty
 
 
         <div class="fixed-action-btn">
-  <a class="btn-floating btn-large red">
-    <i class="large material-icons">mode_edit</i>
+  <a class="btn-floating btn-large red pulse large">
+    <i class="large material-icons ">mode_edit</i>
   </a>
   <ul>
     <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
@@ -250,7 +250,11 @@ $(document).ready(function(){
   });
 
   $(document).ready(function(){
-     $('.tabs').tabs();
+     $('.tabs').tabs(
+       {
+         instance.select('tab_id');
+       }
+     );
    });
 </script>
 
