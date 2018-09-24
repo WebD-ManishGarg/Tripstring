@@ -74,6 +74,12 @@ app.get("/form_query",function(req,res){
 app.get("/about",function(req,res){
    res.render("about");
 });
+app.get("/mcleodganj",function(req,res){
+  res.render("package-tour/mcleodganj");
+});
+app.get("/manali1",function(req,res){
+  res.render("package-tour/manali_s");
+});
 
 
 

@@ -1,4 +1,5 @@
 <% include ./partials/header %>
+
 <link rel="stylesheet" href="/css/index.css">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -21,6 +22,49 @@ Amazing </h2><h2 class="center lime-text text-accent-1">Holiday Packages & event
 </div>
 </div>
 </div>
+
+<div class="container">
+  <h1 class="center purple-text text-darken-3">Weekend Tours</h1>
+  <hr>
+</div>
+<div class="slider ">
+   <ul class="slides">
+     <li>
+       <img  class="responsive-img" src="/img/manali.jpg"> <!-- random image -->
+       <div class="caption center-align">
+         <h1 class="deep-purple text-darken-4">MANALI PACKAGE</h1>
+         <h3 class="light grey-text text-lighten-3">4N/5D-MANALI</h3>
+         <h3 class="light grey-text text-lighten-3">@5999/-</h3>
+         <a class="btn teal" href="/manali1">Read More</a>
+       </div>
+     </li>
+     <li>
+       <img  class="responsive-img" src="/img/MCLEODGANJ.jpg"> <!-- random image -->
+       <div class="caption center-align">
+         <h1 class="bold  deep-purple text-darken-4">MCLEODGANJ PACKAGE</h1>
+         <h3 class="light grey-text text-lighten-3">3N/4D-MCLEODGANJ</h3>
+         <h3 class="light grey-text text-lighten-3">@5499/-</h3>
+         <a class="btn teal" href="/mcleodganj">Read More</a>
+       </div>
+     </li>
+     <li>
+       <img  class="responsive-img" src="/img/jaisalmer.jpg"> <!-- random image -->
+       <div class="caption center-align">
+         <h1 class="deep-purple text-darken-4">Delhi-Bikaner-Jaisalmer-Jaipur</h1>
+
+           <h3 class="light grey-text text-lighten-5">6 Days Tour</h3>
+           <h3 class="light grey-text text-lighten-5">@6999/-</h3>
+
+
+         <a class="btn teal" href="/form_query">Read More</a>
+       </div>
+     </li>
+
+   </ul>
+ </div>
+
+
+
 
 
 
@@ -75,7 +119,7 @@ Amazing </h2><h2 class="center lime-text text-accent-1">Holiday Packages & event
 			<div class="special_slider_container">
 				<div class="owl-carousel owl-theme special_slider">
 
-					<!-- Special Offers Item -->
+
 					<div class="owl-item">
 						<div class="special_item">
 							<div class="special_item_background"><img src="images/special_3.jpg"></div>
@@ -86,7 +130,6 @@ Amazing </h2><h2 class="center lime-text text-accent-1">Holiday Packages & event
 						</div>
 					</div>
 
-					<!-- Special Offers Item -->
 					<div class="owl-item">
 						<div class="special_item d-flex flex-column align-items-center justify-content-center">
 							<div class="special_item_background"><img src="img/manali.jpg"></div>
@@ -97,7 +140,7 @@ Amazing </h2><h2 class="center lime-text text-accent-1">Holiday Packages & event
 						</div>
 					</div>
 
-					<!-- Special Offers Item -->
+
 					<div class="owl-item">
 						<div class="special_item d-flex flex-column align-items-center justify-content-center">
 							<div class="special_item_background"><img src="img/dharam2.jpg" ></div>
@@ -108,7 +151,7 @@ Amazing </h2><h2 class="center lime-text text-accent-1">Holiday Packages & event
 						</div>
 					</div>
 
-					<!-- Special Offers Item -->
+
 					<div class="owl-item">
 						<div class="special_item d-flex flex-column align-items-center justify-content-center">
 							<div class="special_item_background"><img src="img/Tigerhill.jpg"></div>
@@ -140,7 +183,18 @@ Amazing </h2><h2 class="center lime-text text-accent-1">Holiday Packages & event
 </div>
 
 
-	<div class="last pt-5 mt-5">
+
+
+
+
+
+
+
+
+
+
+
+	<div class="last pt-3">
 
 		<div class="last_background parallax-window" data-parallax="scroll" data-image-src="images/last.jpg" data-speed="0.8"></div>
 
@@ -234,10 +288,15 @@ href="/form_query">
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script>
 $(document).ready(function(){
  $('.fixed-action-btn').floatingActionButton();
 });
+$(document).ready(function(){
+   $('.slider').slider();
+ });
+
 </script>
 
 
