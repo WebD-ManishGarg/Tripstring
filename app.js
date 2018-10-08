@@ -80,6 +80,9 @@ app.get("/mcleodganj",function(req,res){
 app.get("/manali1",function(req,res){
   res.render("package-tour/manali_s");
 });
+app.get("/weekend",function(req,res){
+  res.render("package-tour/weekend");
+});
 
 
 

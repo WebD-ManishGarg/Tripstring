@@ -99,3 +99,11 @@ font-size: 4rem;
   height: 50%;
   object-fit: cover;
 }
+.material-tooltip .backdrop{
+	background-color:teal;
+
+}
+.material-tooltip{
+font-size: 50px;
+/* letter-spacing: 3; */
+};

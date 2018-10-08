@@ -6,3 +6,11 @@ body{
   /* background: lime; */
   /* margin-top: 50px; */
 }
+.material-tooltip .backdrop{
+	background-color: blue;
+
+}
+.material-tooltip{
+font-size: 50px;
+/* letter-spacing: 3; */
+};
