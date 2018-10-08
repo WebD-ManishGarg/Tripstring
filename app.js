@@ -1,10 +1,16 @@
 var express=require("express"),
     app=express();
     const port=process.env.PORT ||3000;
-
+    const bodyParser = require("body-parser");
+    const cors = require('cors');
+    const mongoose = require("mongoose");
+    const queryRoutes = require("./routes/queryform");
 
 app.set("view engine","ejs");
 app.use(express.static(__dirname + '/public'));
+app.use(cors());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 
 //routes
@@ -86,8 +92,10 @@ app.get("/weekend",function(req,res){
 
 
 
-
+app.use("/query_form",queryRoutes);
 
 app.listen(port,function(){
-  console.log("server is started .......")
+  console.log("server is started .......");
+  mongoose.connect('mongodb://localhost:27017/radixfeedback');
 });
+module.exports = app;
